@@ -21,18 +21,18 @@ classes: wide
 
 **Time Slices:** Near future (2022–2051) and far future (2076–2099); flood damage assessed for present vs. future conditions.
 
-**Key Findings:** SSP2-4.5 shows steadily increasing rainfall and flood risk; SSP5-8.5 shows intense near-future flooding with a later decline. Maximum peak discharge was 2155.56 m³/s
- <br> 
-**Methodological Flowchart of the Study**
-<img class="figure-img" src="/assets/images/methodology.png" alt="Methodology" style="width:600px; max-width:100%; height:auto; display:block; margin:0.5rem auto 0;">
- <br> 
-**HEC-RAS simulation using Rain-on-Grid approach**
-<img class="figure-img" src="/assets/images/Flood_output.png" alt="Flood_output" style="width:600px; max-width:100%; height:auto; display:block; margin:0.5rem auto 0;">
- <br> 
- **Flood map present scenario**
-<img class="figure-img" src="/assets/images/flood_map_Present_scenrio_100_year_return_peroid.png" alt="Flood map present scenario (100-year return period)" style="width:600px; max-width:100%; height:auto; display:block; margin:0.5rem auto 0;">
- <br> 
- <br> 
+**Key Findings:** SSP2-4.5 shows steadily increasing rainfall and flood risk; SSP5-8.5 shows intense near-future flooding with a later decline. Maximum peak discharge was 2155.56 m³/s (SSP2-4.5, [...]
+
+<p style="text-align:center; margin:0 0 0.5rem 0;"><em>Methodological Flowchart of the Study</em></p>
+<img class="figure-img" src="/assets/images/methodology.png" alt="Methodology" style="width:600px; max-width:100%; height:auto; display:block; margin:0 auto 2.5rem auto;">
+
+<p style="text-align:center; margin:0 0 0.5rem 0;"><em>HEC-RAS simulation using Rain-on-Grid approach</em></p>
+<img class="figure-img" src="/assets/images/Flood_output.png" alt="Flood_output" style="width:600px; max-width:100%; height:auto; display:block; margin:0 auto 2.5rem auto;">
+
+<p style="text-align:center; margin:0 0 0.5rem 0;"><em>Flood map present scenario (100-year return period)</em></p>
+<img class="figure-img" src="/assets/images/flood_map_Present_scenrio_100_year_return_peroid.png" alt="Flood map present scenario (100-year return period)" style="width:600px; max-width:100%; height:auto; display:block; margin:0 auto 2.5rem auto;">
+
+
 ### Research and Capacity Strengthening for Enhancing Water Security in Kathmandu Valley
 
 **Study focus:** GIS map the pipe network and establish DMAs in Budhanilkantha Ward 10 to resolve pressure, leakage, and monitoring issues.
@@ -41,14 +41,14 @@ classes: wide
 
 **Technical Implementation and Results:** Created five sub-DMAs and optimized hydraulic performance in WaterGEMS using PRVs and pipe adjustments to balance pressure and velocity.
 
-<img class="figure-img" src="/assets/images/Existing_network_characterization.png" alt="Existing Map characterization of Mahankalchaur Branch" style="width:600px; max-width:100%; height:auto; display:block; margin:0.5rem auto 0;">
-<p style="text-align:center; margin:0.25rem 0 1.5rem 0;">* Existing Map charactarization of Mahankalchaur Branch*</p>
+<p style="text-align:center; margin:0 0 0.5rem 0;">* Existing Map charactarization of Mahankalchaur Branch*</p>
+<img class="figure-img" src="/assets/images/Existing_network_characterization.png" alt="Existing Map characterization of Mahankalchaur Branch" style="width:600px; max-width:100%; height:auto; display:block; margin:0 auto 2.5rem auto;">
 
-<img class="figure-img" src="/assets/images/Final_pipe.png" alt="Final pipe velocity and junction pressure" style="width:600px; max-width:100%; height:auto; display:block; margin:0.5rem auto 0;">
-<p style="text-align:center; margin:0.25rem 0 1.5rem 0;">* Final pipe velocity and junction pressure*</p>
+<p style="text-align:center; margin:0 0 0.5rem 0;">* Final pipe velocity and junction pressure*</p>
+<img class="figure-img" src="/assets/images/Final_pipe.png" alt="Final pipe velocity and junction pressure" style="width:600px; max-width:100%; height:auto; display:block; margin:0 auto 2.5rem auto;">
   
-<img class="figure-img" src="/assets/images/Final_DMA.png" alt="Final DMA layout of Budhanilkantha Ward-10" style="width:600px; max-width:100%; height:auto; display:block; margin:0.5rem auto 0;">
-<p style="text-align:center; margin:0.25rem 0 1.5rem 0;">* Final DMA layout of Budhanilkantha Ward-10*</p>  
+<p style="text-align:center; margin:0 0 0.5rem 0;">* Final DMA layout of Budhanilkantha Ward-10*</p>
+<img class="figure-img" src="/assets/images/Final_DMA.png" alt="Final DMA layout of Budhanilkantha Ward-10" style="width:600px; max-width:100%; height:auto; display:block; margin:0 auto 2.5rem auto;">
 
 ## Previous research
 ### GIS-based susceptibility mapping
