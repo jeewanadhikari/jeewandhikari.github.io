@@ -21,7 +21,7 @@ defaults:
 author:
   name: "Jeewan Adhikari"
   avatar: "/assets/images/jeewan.jpg"
-  bio: "Civil Engineering (Water Resources). Flood hazard modeling, hydroclimatology, GIS, Python."
+  bio: "Civil Engineering (Water Resources)"
   location: "Nepal"
   links:
     - label: "Email"
