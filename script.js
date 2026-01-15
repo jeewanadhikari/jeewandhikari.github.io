@@ -1,28 +1,31 @@
 (function () {
-  // Footer year
-  document.getElementById("year").textContent = new Date().getFullYear();
+  // Year
+  const yearEl = document.getElementById("year");
+  if (yearEl) yearEl.textContent = new Date().getFullYear();
 
-  // Theme toggle (saved in localStorage)
+  // Theme toggle
   const btn = document.getElementById("themeBtn");
-  const key = "site-theme";
-  const saved = localStorage.getItem(key);
+  const icon = document.getElementById("themeIcon");
+  const key = "theme";
 
+  const saved = localStorage.getItem(key);
   if (saved) document.documentElement.setAttribute("data-theme", saved);
 
-  function iconFor(theme) {
-    return theme === "light" ? "☀" : "☾";
+  function setIcon() {
+    const t = document.documentElement.getAttribute("data-theme");
+    if (icon) icon.textContent = t === "light" ? "☀" : "☾";
   }
+  setIcon();
 
-  btn.textContent = iconFor(document.documentElement.getAttribute("data-theme"));
+  if (btn) {
+    btn.addEventListener("click", () => {
+      const cur = document.documentElement.getAttribute("data-theme");
+      const next = cur === "light" ? "" : "light"; // "" => dark default
+      if (next) document.documentElement.setAttribute("data-theme", next);
+      else document.documentElement.removeAttribute("data-theme");
 
-  btn.addEventListener("click", () => {
-    const current = document.documentElement.getAttribute("data-theme");
-    const next = current === "light" ? "" : "light"; // "" = dark default
-    if (next) document.documentElement.setAttribute("data-theme", next);
-    else document.documentElement.removeAttribute("data-theme");
-
-    localStorage.setItem(key, next || "");
-    btn.textContent = iconFor(next);
-  });
+      localStorage.setItem(key, next || "");
+      setIcon();
+    });
+  }
 })();
-
