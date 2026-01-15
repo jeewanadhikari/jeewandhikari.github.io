@@ -2,6 +2,8 @@ title: "Jeewan Adhikari"
 description: "Water Resources • Flood Modeling • GIS • Python"
 url: "https://jeewanadhikari.github.io"
 baseurl: ""
+custom_css:
+  - /assets/css/main.css
 
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 
