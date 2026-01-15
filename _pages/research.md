@@ -1,24 +1,24 @@
 ---
-title: "Research"
-permalink: /research/
+title: "Projects"
+permalink: /projects/
 layout: single
 author_profile: true
 ---
 
-![model_data](/assets/images/model_data.png)
-*A loop of model-data integration for hydrology, including model calibration and model-informed data collection.*
 
-## Current research
+## Research Experience 
 
-### Flood hazard modeling under climate change
-- **Study site:** Kathmandu Valley, Nepal
+### Flood hazard modeling of kathmandu valley under climate change scenarios 
+- **Study site:** Upper Bagmati Basin, Nepal
 
-I build flood inundation models under extreme rainfall and future climate scenarios (e.g., CMIP6/SSP pathways) and produce hazard maps to support resilient infrastructure planning.
+![figures](/assets/images/studyarea.png)
+*Study Area: Upper Bagamti Basin.*
 
-Journal paper: *(add link/DOI)*
+Flood risk in Kathmandu Valley is increasing due to rapid urbanization, inadequate drainage, and climate-driven shifts in extreme rainfall. This study used the HEC-RAS Rain-on-Grid approach to model pluvial flooding and quantify inundation depth, peak discharge, and flood hazard under both present and future climates. The model was calibrated and validated using observed discharge at the Khokana hydrological station (DHM). Future rainfall (2025–2099) was taken from the MIROC6 GCM (CMIP6) for SSP2-4.5 and SSP5-8.5, with quantile mapping (QM) bias correction applied prior to simulations. Flood damage and hazard were evaluated for the near future (2022–2051) and far future (2076–2099). Results indicate rising rainfall and flood risk under SSP2-4.5, while SSP5-8.5 shows stronger near-future flooding followed by a long-term decline. The highest simulated peak discharge reached 2155.56 m³/s (SSP2-4.5, far future), and inundation extent increased consistently with higher rainfall.
 
-![floodmap](/assets/images/floodmap.png)
-*Example flood hazard map (replace with your figure).*
+
+![floodmap](/assets/images/flood map Present scenrio 100 year return peroid.png)
+*flood map Present scenrio 100 year return peroid.*
 
 ### Hydroclimatology and extremes
 - **Study focus:** droughts/floods, rainfall-runoff, uncertainty
