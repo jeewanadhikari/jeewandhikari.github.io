@@ -1,0 +1,8 @@
+.page__content img {
+  display: block;
+  width: 700px;
+  max-width: 100%;
+  height: auto;
+  margin: 16px auto;
+  border-radius: 10px;
+}
