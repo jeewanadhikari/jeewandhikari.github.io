@@ -4,40 +4,41 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Jeewan Adhikari | Water Resources & Flood Modeling</title>
-  <meta name="description" content="Jeewan Adhikari — Civil Engineering (Water Resources), flood hazard modeling, hydroclimatology, GIS, HEC-RAS." />
+  <meta name="description" content="Jeewan Adhikari — Water Resources, Flood Modeling, GIS, Python." />
 
-  <!-- Open Graph (nice previews when sharing links) -->
   <meta property="og:title" content="Jeewan Adhikari | Water Resources & Flood Modeling" />
   <meta property="og:description" content="Projects, research interests, CV, and contact." />
   <meta property="og:type" content="website" />
 
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
+  <a class="skip" href="#main">Skip to content</a>
 
-  <header class="site-header">
-    <div class="container header-inner">
-      <div class="brand">
-        <div class="avatar" aria-hidden="true">JA</div>
-        <div>
-          <h1 class="name">Jeewan Adhikari</h1>
-          <p class="tagline">Water Resources • Flood Modeling • GIS • Python</p>
-        </div>
-      </div>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="#">
+        <span class="logo">JA</span>
+        <span class="brand-text">
+          <span class="brand-name">Jeewan Adhikari</span>
+          <span class="brand-sub">Water Resources • Flood Modeling • GIS</span>
+        </span>
+      </a>
 
       <nav class="nav">
         <a href="#about">About</a>
-        <a href="#research">Research</a>
         <a href="#projects">Projects</a>
-        <a href="#publications">Publications</a>
-        <a href="#cv">CV</a>
+        <a href="#skills">Skills</a>
         <a href="#contact">Contact</a>
       </nav>
 
-      <button class="theme-btn" id="themeBtn" type="button" aria-label="Toggle theme">
-        ☾
+      <button class="icon-btn" id="themeBtn" type="button" aria-label="Toggle theme">
+        <span id="themeIcon">☾</span>
       </button>
     </div>
   </header>
@@ -45,170 +46,196 @@
   <main id="main">
     <section class="hero">
       <div class="container hero-inner">
-        <div>
-          <h2 class="hero-title">I build data-driven flood risk models and practical water solutions.</h2>
-          <p class="hero-text">
-            Civil Engineering graduate focused on hydrologic/hydraulic modeling, climate-driven extremes, and GIS-based spatial analysis.
+        <div class="hero-left">
+          <p class="badge">Open to funded MS/PhD opportunities</p>
+          <h1>Data-driven flood risk modeling and practical water solutions.</h1>
+          <p class="lead">
+            Civil Engineering graduate focused on hydrologic/hydraulic modeling, climate-driven extremes,
+            and geospatial analysis for resilient infrastructure.
           </p>
 
-          <div class="cta-row">
-            <a class="btn primary" href="#contact">Get in touch</a>
+          <div class="cta">
+            <a class="btn primary" href="#contact">Contact</a>
             <a class="btn" href="assets/CV.pdf" target="_blank" rel="noopener">Download CV</a>
-            <a class="btn" href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
-            <a class="btn" href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+            <a class="btn ghost" href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+            <a class="btn ghost" href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
           </div>
 
-          <p class="small-note">
-            Tip: Replace GitHub/LinkedIn links with your real profiles.
-          </p>
+          <div class="stats">
+            <div class="stat">
+              <div class="stat-num">HEC-RAS</div>
+              <div class="stat-label">2D inundation</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">Python</div>
+              <div class="stat-label">data + plots</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num">GIS</div>
+              <div class="stat-label">hazard maps</div>
+            </div>
+          </div>
         </div>
 
-        <div class="hero-card">
-          <h3>Quick facts</h3>
+        <aside class="hero-card">
+          <h2>Quick profile</h2>
           <ul>
-            <li><strong>Interests:</strong> Flood hazard modeling, hydroclimatology, ML for hydrology</li>
-            <li><strong>Tools:</strong> HEC-RAS, HEC-HMS, GIS, Python, MATLAB</li>
-            <li><strong>Currently:</strong> Seeking funded MS/PhD opportunities</li>
+            <li><strong>Interests:</strong> floods, hydroclimatology, ML for hydrology</li>
+            <li><strong>Tools:</strong> HEC-RAS, HEC-HMS, QGIS/ArcGIS, Python</li>
             <li><strong>Location:</strong> Nepal</li>
           </ul>
-        </div>
+
+          <div class="divider"></div>
+
+          <p class="small">
+            Tip: Replace GitHub/LinkedIn links and upload your CV as <code>assets/CV.pdf</code>.
+          </p>
+        </aside>
       </div>
+
+      <div class="bg-blur" aria-hidden="true"></div>
     </section>
 
     <section id="about" class="section">
       <div class="container">
-        <h2>About</h2>
-        <p>
-          I’m Jeewan Adhikari, a Civil Engineering graduate specializing in water resources. I work on flood hazard mapping,
-          hydrologic/hydraulic simulation, and climate scenario analysis to support resilient infrastructure planning.
-        </p>
-        <p>
-          I enjoy combining physically-based models (e.g., HEC-RAS/HEC-HMS) with data science (Python) and geospatial workflows (GIS).
-        </p>
+        <div class="section-head">
+          <h2>About</h2>
+          <p class="muted">A short intro for professors and collaborators.</p>
+        </div>
+
+        <div class="two-col">
+          <div class="card">
+            <h3>What I do</h3>
+            <p>
+              I work on flood hazard mapping, hydrologic and hydraulic simulation, and climate scenario analysis.
+              I like combining physically-based models (HEC-RAS/HEC-HMS) with reproducible Python workflows and GIS.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>What I’m looking for</h3>
+            <p>
+              Funded graduate opportunities where I can contribute to flood/drought research, hydroclimatology,
+              and data-driven hydrology. I’m especially interested in projects with real-world impact.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section id="research" class="section alt">
+    <section id="projects" class="section alt">
       <div class="container">
-        <h2>Research interests</h2>
+        <div class="section-head">
+          <h2>Selected projects</h2>
+          <p class="muted">Add links to reports/repos when available.</p>
+        </div>
+
         <div class="grid">
-          <div class="card">
-            <h3>Flood hazard & inundation modeling</h3>
-            <p>2D simulations, extreme rainfall events, vulnerability and risk mapping for urban basins.</p>
-          </div>
-          <div class="card">
-            <h3>Climate change impacts</h3>
-            <p>CMIP6 scenarios, SSP pathways, translating climate projections into hydrologic risk.</p>
-          </div>
-          <div class="card">
-            <h3>Data-driven hydrology</h3>
-            <p>Machine learning for rainfall–runoff, bias correction, and probabilistic prediction.</p>
-          </div>
+          <article class="card project">
+            <div class="project-top">
+              <h3>Flood hazard modeling — Kathmandu Valley</h3>
+              <span class="pill">HEC-RAS • GIS • CMIP6</span>
+            </div>
+            <p>
+              Built inundation simulations under extreme rainfall and future climate scenarios; produced hazard maps and summaries.
+            </p>
+            <div class="links">
+              <a href="#" aria-disabled="true">Report</a>
+              <a href="#" aria-disabled="true">Code</a>
+            </div>
+          </article>
+
+          <article class="card project">
+            <div class="project-top">
+              <h3>Rainfall–runoff workflow automation</h3>
+              <span class="pill">Python • Hydrology</span>
+            </div>
+            <p>
+              Automated time-series cleaning, feature extraction, and plotting to improve reproducibility and speed.
+            </p>
+            <div class="links">
+              <a href="#" aria-disabled="true">Repository</a>
+            </div>
+          </article>
+
+          <article class="card project">
+            <div class="project-top">
+              <h3>GIS-based flood susceptibility mapping</h3>
+              <span class="pill">GIS • Spatial Analysis</span>
+            </div>
+            <p>
+              Created spatial layers and maps to support risk communication and planning for vulnerable areas.
+            </p>
+            <div class="links">
+              <a href="#" aria-disabled="true">Map</a>
+            </div>
+          </article>
         </div>
       </div>
     </section>
 
-    <section id="projects" class="section">
+    <section id="skills" class="section">
       <div class="container">
-        <h2>Selected projects</h2>
-
-        <div class="project">
-          <div class="project-head">
-            <h3>Flood hazard modeling for Kathmandu Valley</h3>
-            <span class="pill">HEC-RAS • GIS • Python</span>
-          </div>
-          <p>
-            Built a flood inundation model under extreme rainfall and future climate scenarios; produced hazard maps and impact summaries.
-          </p>
-          <div class="links">
-            <a href="#" aria-disabled="true">Report (add link)</a>
-            <a href="#" aria-disabled="true">Code (add link)</a>
-          </div>
+        <div class="section-head">
+          <h2>Skills</h2>
+          <p class="muted">Keep it simple and scannable.</p>
         </div>
 
-        <div class="project">
-          <div class="project-head">
-            <h3>Rainfall–runoff workflow automation</h3>
-            <span class="pill">Python • Hydrology</span>
-          </div>
-          <p>
-            Automated data cleaning, time-series processing, and plotting for watershed studies; improved reproducibility of analyses.
-          </p>
-          <div class="links">
-            <a href="#" aria-disabled="true">Repository (add link)</a>
-          </div>
+        <div class="chips">
+          <span class="chip">HEC-RAS</span>
+          <span class="chip">HEC-HMS</span>
+          <span class="chip">QGIS / ArcGIS</span>
+          <span class="chip">Python</span>
+          <span class="chip">NumPy</span>
+          <span class="chip">Pandas</span>
+          <span class="chip">Matplotlib</span>
+          <span class="chip">Hydrology</span>
+          <span class="chip">Hydraulics</span>
+          <span class="chip">Climate Data</span>
         </div>
-
-        <p class="small-note">Replace these with your real project titles + links (GitHub, Google Drive, etc.).</p>
-      </div>
-    </section>
-
-    <section id="publications" class="section alt">
-      <div class="container">
-        <h2>Publications / presentations</h2>
-        <ul class="pubs">
-          <li>
-            <strong>Undergraduate research presentation</strong> — Flood hazard modeling for Kathmandu Valley (add course/event name and date).
-          </li>
-          <li>
-            <strong>(Add your paper/report)</strong> — Title, venue, year.
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="cv" class="section">
-      <div class="container">
-        <h2>CV</h2>
-        <p>
-          Keep your CV as a PDF at <code>assets/CV.pdf</code>. The “Download CV” button above will open it.
-        </p>
-        <ol>
-          <li>Put your CV file in <code>assets/</code></li>
-          <li>Name it exactly <code>CV.pdf</code></li>
-        </ol>
       </div>
     </section>
 
     <section id="contact" class="section alt">
       <div class="container">
-        <h2>Contact</h2>
-        <div class="contact-grid">
+        <div class="section-head">
+          <h2>Contact</h2>
+          <p class="muted">Replace the email + links with your real ones.</p>
+        </div>
+
+        <div class="contact">
           <div class="card">
             <h3>Email</h3>
             <p><a href="mailto:jeewan.email@example.com">jeewan.email@example.com</a></p>
-            <p class="small-note">Replace with your real email.</p>
+            <p class="small muted">Use a professional email you check often.</p>
           </div>
 
           <div class="card">
-            <h3>Links</h3>
+            <h3>Profiles</h3>
             <ul class="clean">
-              <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a></li>
               <li><a href="https://github.com/" target="_blank" rel="noopener">GitHub</a></li>
-              <li><a href="#" aria-disabled="true">Google Scholar (add)</a></li>
+              <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a></li>
+              <li><a href="#" aria-disabled="true">Google Scholar</a></li>
             </ul>
           </div>
 
           <div class="card">
-            <h3>Message</h3>
-            <p>
-              If you want a built-in contact form without backend code, use Google Forms and link it here.
-            </p>
-            <a class="btn" href="#" aria-disabled="true">Open contact form (add link)</a>
+            <h3>CV</h3>
+            <p>Upload your CV to <code>assets/CV.pdf</code>.</p>
+            <a class="btn" href="assets/CV.pdf" target="_blank" rel="noopener">Open CV</a>
           </div>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer">
+  <footer class="footer">
     <div class="container footer-inner">
       <p>© <span id="year"></span> Jeewan Adhikari</p>
-      <p class="small-note">Built with HTML/CSS • Hosted on GitHub Pages</p>
+      <p class="muted small">Hosted on GitHub Pages</p>
     </div>
   </footer>
 
   <script src="script.js"></script>
 </body>
 </html>
-
