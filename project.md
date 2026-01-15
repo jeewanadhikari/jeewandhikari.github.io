@@ -24,14 +24,14 @@ classes: wide
 
 **Key Findings:** SSP2-4.5 shows steadily increasing rainfall and flood risk; SSP5-8.5 shows intense near-future flooding with a later decline. Maximum peak discharge was 2155.56 m³/s (SSP2-4.5, far future). Inundation area increased with rainfall, showing strong correlation.
 
-![figures](/assets/images/methodology.png)
-* Methodological Flowchart of the Study*
-  
-![figures](/assets/images/Flood_output.png)
-* HEC-RAS Simulation using Rain on grid approach*
-  
-![floodmap](/assets/images/flood_map_Present_scenrio_100_year_return_peroid.png)
-*flood map Present scenrio 100 year return peroid.*
+<img class="figure-img" src="/assets/images/methodology.png" alt="Methodology">
+<p><em>Methodological Flowchart of the Study</em></p>
+
+<img class="figure-img" src="/assets/images/Flood_output.png" alt="Flood output">
+<p><em>HEC-RAS simulation using Rain-on-Grid approach</em></p>
+
+<img class="figure-img" src="/assets/images/flood_map_Present_scenario_100_year_return_period.png" alt="Flood map">
+<p><em>Flood map present scenario (100-year return period)</em></p>
 
 
 
